@@ -1,0 +1,25 @@
+{
+  "name": "webproj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js --spec" 
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/register": "^7.7.0",
+    "@wdio/cli": "^5.16.7",
+    "@wdio/local-runner": "^5.16.8",
+    "@wdio/mocha-framework": "^5.16.5",
+    "@wdio/selenium-standalone-service": "^5.16.5",
+    "@wdio/spec-reporter": "^5.16.5",
+    "@wdio/sync": "^5.16.8",
+    "chai": "^4.2.0",
+    "webdriverio": "^5.16.7"
+  }
+}
